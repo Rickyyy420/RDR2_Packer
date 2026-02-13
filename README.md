@@ -19,7 +19,8 @@ Python Requirements and Installation
 This installer is written in Python and requires a minimal set of dependencies.
 Users must have Python installed and ensure the required packages are available before running the installer.
 Supported Python Versions
-The installer supports:
+
+## The installer supports:
 - Python 3.10
 - Python 3.11
 - Python 3.12
@@ -27,7 +28,8 @@ Earlier versions may work but are not officially supported.
 Required Python Packages
 The installer uses a small number of external libraries.
 These must be installed using pip before running the installer.
-Required packages:
+
+## Required packages:
 - requests
 - tqdm
 - colorama
