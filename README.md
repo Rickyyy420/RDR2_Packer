@@ -15,7 +15,47 @@ This project is a work in progress. Updates and improvements will be released ov
   Install using: `pip install requests`  
 - Ability to follow instructions carefully  
 
----
+Python Requirements and Installation
+This installer is written in Python and requires a minimal set of dependencies.
+Users must have Python installed and ensure the required packages are available before running the installer.
+Supported Python Versions
+The installer supports:
+- Python 3.10
+- Python 3.11
+- Python 3.12
+Earlier versions may work but are not officially supported.
+Required Python Packages
+The installer uses a small number of external libraries.
+These must be installed using pip before running the installer.
+Required packages:
+- requests
+- tqdm
+- colorama
+- patool
+- py7zr
+These packages handle downloading, progress bars, colored terminal output, archive extraction, and 7z support.
+Installing Dependencies
+To install all required packages, run the following command in a terminal:
+pip install requests tqdm colorama patool py7zr
+If you are on Windows and receive a permission error, use:
+pip install --user requests tqdm colorama patool py7zr
+If you are using a virtual environment, activate it first, then run the installation command.
+Optional Packages
+These packages are not required but improve performance or compatibility:
+- wheel
+- setuptools
+Install them with:
+pip install --upgrade wheel setuptools
+Verifying Installation
+After installing dependencies, verify Python and pip are available:
+python --version
+pip --version
+If both commands return valid version numbers, the environment is ready.
+Running the Installer
+Once dependencies are installed, the installer can be run normally:
+python installers.py
+If the installer is packaged with a batch file, users may instead double‑click the provided launcher.
+
 
 ## How Users Install the Provided Modpack
 
